@@ -1,0 +1,701 @@
+[sobv2] 
+============================================================
+[sobv2] HAND #1 | Bankroll: 0
+[sobv2] My Hand: ['Tc', '9d'] | Preflop Equity: 0.515
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/0 raises
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +10 | Board: []
+[sobv2] We raised: False | Opp folded: True
+[sobv2] 
+============================================================
+[sobv2] HAND #2 | Bankroll: 10
+[sobv2] My Hand: ['7c', '9h'] | Preflop Equity: 0.463
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/0 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=40 | total_commit=60 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 40 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=31: bid 32 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['6c']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['2s', '6d', 'Qh'] | Opp revealed: ['6c']
+[sobv2]   [FLOP] Exact Equity: 0.000 | Pot: 151 | to_call: 0
+[sobv2]   [FLOP] -> CHECK (equity 0.000)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['2s', '6d', 'Qh', '7s'] | Opp revealed: ['6c']
+[sobv2]   [TURN] Exact Equity: 0.778 | Pot: 248 | to_call: 97
+[sobv2]   [TURN] -> CALL 97 (equity 0.778 >= 0.30)
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['2s', '6d', 'Qh', '7s', '8c'] | Opp revealed: ['6c']
+[sobv2]   [RIVER] Exact Equity: 0.705 | Pot: 345 | to_call: 0
+[sobv2]   [RIVER] -> RAISE 86 (value bet, equity 0.705)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +157 | Board: ['2s', '6d', 'Qh', '7s', '8c']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['6c']
+[sobv2] 
+============================================================
+[sobv2] HAND #3 | Bankroll: 167
+[sobv2] My Hand: ['2h', '8c'] | Preflop Equity: 0.368
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/1 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=30 | total_commit=50 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 30 (within threshold)
+[sobv2]   [AUCTION] Trash BB bid: 2
+[sobv2]   [FLOP] Opp won auction (no reveal)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Jc', 'As', '4c'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.182 | Pot: 102 | to_call: 0
+[sobv2]   [FLOP] -> CHECK (equity 0.182)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Jc', 'As', '4c'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.182 | Pot: 180 | to_call: 78
+[sobv2]   [FLOP] -> FOLD (poor equity 0.182 < 0.30)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -50 | Board: ['Jc', 'As', '4c']
+[sobv2] We raised: False | Opp folded: False
+[sobv2] 
+============================================================
+[sobv2] HAND #4 | Bankroll: 117
+[sobv2] My Hand: ['Js', '7c'] | Preflop Equity: 0.497
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/1 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=10: bid 11 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['Ks']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Th', '5h', 'Ah'] | Opp revealed: ['Ks']
+[sobv2]   [FLOP] Exact Equity: 0.000 | Pot: 50 | to_call: 0
+[sobv2]   [FLOP] -> CHECK (equity 0.000)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['Th', '5h', 'Ah', '6c'] | Opp revealed: ['Ks']
+[sobv2]   [TURN] Exact Equity: 0.000 | Pot: 50 | to_call: 0
+[sobv2]   [TURN] -> CHECK (equity 0.000)
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['Th', '5h', 'Ah', '6c', 'Qc'] | Opp revealed: ['Ks']
+[sobv2]   [RIVER] Exact Equity: 0.000 | Pot: 50 | to_call: 0
+[sobv2]   [RIVER] -> CHECK (equity 0.000)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -30 | Board: ['Th', '5h', 'Ah', '6c', 'Qc']
+[sobv2] We raised: False | Opp folded: False
+[sobv2] Opp revealed: ['Ks', '2h']
+[sobv2] 
+============================================================
+[sobv2] HAND #5 | Bankroll: 87
+[sobv2] My Hand: ['6h', 'Ks'] | Preflop Equity: 0.542
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/1 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=30 | total_commit=50 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 30 (within threshold)
+[sobv2]   [AUCTION] Trash BB bid: 1
+[sobv2]   [FLOP] Opp won auction (no reveal)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['9s', 'Kc', '2c'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.949 | Pot: 101 | to_call: 0
+[sobv2]   [FLOP] MONSTER HAND! Equity 0.949 >= threshold 0.800
+[sobv2]   [FLOP] -> ALL-IN RAISE 4949
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['9s', 'Kc', '2c', '8h'] | Opp revealed: None
+[sobv2]   [TURN] Exact Equity: 0.892 | Pot: 9999 | to_call: 0
+[sobv2]   [TURN] MONSTER HAND! Equity 0.892 >= threshold 0.800
+[sobv2]   [TURN] -> CHECK
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['9s', 'Kc', '2c', '8h', '8d'] | Opp revealed: None
+[sobv2]   [RIVER] Exact Equity: 0.838 | Pot: 9999 | to_call: 0
+[sobv2]   [RIVER] MONSTER HAND! Equity 0.838 >= threshold 0.800
+[sobv2]   [RIVER] -> CHECK
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -4999 | Board: ['9s', 'Kc', '2c', '8h', '8d']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['Kd', '9d']
+[sobv2] 
+============================================================
+[sobv2] HAND #6 | Bankroll: -4912
+[sobv2] My Hand: ['6s', '8h'] | Preflop Equity: 0.433
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/2 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=7: bid 8 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['7h']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Qs', '2d', 'Td'] | Opp revealed: ['7h']
+[sobv2]   [FLOP] Exact Equity: 0.239 | Pot: 47 | to_call: 0
+[sobv2]   [FLOP] -> CHECK (equity 0.239)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['Qs', '2d', 'Td', '3d'] | Opp revealed: ['7h']
+[sobv2]   [TURN] Exact Equity: 0.278 | Pot: 47 | to_call: 0
+[sobv2]   [TURN] -> CHECK (equity 0.278)
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['Qs', '2d', 'Td', '3d', '6c'] | Opp revealed: ['7h']
+[sobv2]   [RIVER] Exact Equity: 0.795 | Pot: 47 | to_call: 0
+[sobv2]   [RIVER] -> RAISE 20 (value bet, equity 0.795)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +20 | Board: ['Qs', '2d', 'Td', '3d', '6c']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['7h']
+[sobv2] 
+============================================================
+[sobv2] HAND #7 | Bankroll: -4892
+[sobv2] My Hand: ['3h', 'Jh'] | Preflop Equity: 0.482
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/3 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=30 | total_commit=50 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 30 (within threshold)
+[sobv2]   [AUCTION] Trash BB bid: 1
+[sobv2]   [FLOP] Opp won auction (no reveal)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Ts', '9c', '5h'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.235 | Pot: 101 | to_call: 0
+[sobv2]   [FLOP] -> CHECK (equity 0.235)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Ts', '9c', '5h'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.235 | Pot: 150 | to_call: 49
+[sobv2]   [FLOP] -> FOLD (poor equity 0.235 < 0.30)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -50 | Board: ['Ts', '9c', '5h']
+[sobv2] We raised: False | Opp folded: False
+[sobv2] 
+============================================================
+[sobv2] HAND #8 | Bankroll: -4942
+[sobv2] My Hand: ['6d', '7c'] | Preflop Equity: 0.423
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/3 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=2: bid 3 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['9s']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['4d', '4c', 'Ac'] | Opp revealed: ['9s']
+[sobv2]   [FLOP] Exact Equity: 0.413 | Pot: 74 | to_call: 32
+[sobv2]   [FLOP] -> CALL 32 (equity 0.413 >= 0.30)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['4d', '4c', 'Ac', '8s'] | Opp revealed: ['9s']
+[sobv2]   [TURN] Exact Equity: 0.378 | Pot: 106 | to_call: 0
+[sobv2]   [TURN] -> CHECK (equity 0.378)
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['4d', '4c', 'Ac', '8s', 'Kd'] | Opp revealed: ['9s']
+[sobv2]   [RIVER] Exact Equity: 0.000 | Pot: 106 | to_call: 0
+[sobv2]   [RIVER] -> CHECK (equity 0.000)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -54 | Board: ['4d', '4c', 'Ac', '8s', 'Kd']
+[sobv2] We raised: False | Opp folded: False
+[sobv2] Opp revealed: ['9s', '2s']
+[sobv2] 
+============================================================
+[sobv2] HAND #9 | Bankroll: -4996
+[sobv2] My Hand: ['2d', 'Th'] | Preflop Equity: 0.417
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/3 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=30 | total_commit=50 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 30 (within threshold)
+[sobv2]   [AUCTION] Trash BB bid: 1
+[sobv2]   [FLOP] Opp won auction (no reveal)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['4d', 'Ac', '2h'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.669 | Pot: 101 | to_call: 0
+[sobv2]   [FLOP] -> RAISE 25 (value bet, equity 0.669)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['4d', 'Ac', '2h', '5h'] | Opp revealed: None
+[sobv2]   [TURN] Exact Equity: 0.436 | Pot: 151 | to_call: 0
+[sobv2]   [TURN] -> CHECK (equity 0.436)
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['4d', 'Ac', '2h', '5h', 'As'] | Opp revealed: None
+[sobv2]   [RIVER] Exact Equity: 0.460 | Pot: 151 | to_call: 0
+[sobv2]   [RIVER] -> CHECK (equity 0.460)
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['4d', 'Ac', '2h', '5h', 'As'] | Opp revealed: None
+[sobv2]   [RIVER] Exact Equity: 0.460 | Pot: 266 | to_call: 115
+[sobv2]   [RIVER] -> CALL 115 (equity 0.460 >= 0.30)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -190 | Board: ['4d', 'Ac', '2h', '5h', 'As']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['8h', 'Ah']
+[sobv2] 
+============================================================
+[sobv2] HAND #10 | Bankroll: -5186
+[sobv2] My Hand: ['4h', 'Js'] | Preflop Equity: 0.462
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/4 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=1: bid 2 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['3d']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Jc', 'Qd', '4c'] | Opp revealed: ['3d']
+[sobv2]   [FLOP] Exact Equity: 0.913 | Pot: 41 | to_call: 0
+[sobv2]   [FLOP] MONSTER HAND! Equity 0.913 >= threshold 0.800
+[sobv2]   [FLOP] -> ALL-IN RAISE 4979
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +20 | Board: ['Jc', 'Qd', '4c']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['3d']
+[sobv2] 
+============================================================
+[sobv2] HAND #1 | Bankroll: 0
+[sobv2] My Hand: ['3c', 'Qs'] | Preflop Equity: 0.482
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/0 raises
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +10 | Board: []
+[sobv2] We raised: False | Opp folded: True
+[sobv2] 
+============================================================
+[sobv2] HAND #2 | Bankroll: 10
+[sobv2] My Hand: ['4c', '2d'] | Preflop Equity: 0.332
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/0 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=9: bid 10 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['4d']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['7d', '7h', '6h'] | Opp revealed: ['4d']
+[sobv2]   [FLOP] Exact Equity: 0.478 | Pot: 49 | to_call: 0
+[sobv2]   [FLOP] -> CHECK (equity 0.478)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['7d', '7h', '6h', 'Js'] | Opp revealed: ['4d']
+[sobv2]   [TURN] Exact Equity: 0.256 | Pot: 49 | to_call: 0
+[sobv2]   [TURN] -> CHECK (equity 0.256)
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['7d', '7h', '6h', 'Js', '2c'] | Opp revealed: ['4d']
+[sobv2]   [RIVER] Exact Equity: 0.750 | Pot: 49 | to_call: 0
+[sobv2]   [RIVER] -> RAISE 20 (value bet, equity 0.750)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +20 | Board: ['7d', '7h', '6h', 'Js', '2c']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['4d']
+[sobv2] 
+============================================================
+[sobv2] HAND #3 | Bankroll: 30
+[sobv2] My Hand: ['3c', '9s'] | Preflop Equity: 0.400
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/1 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=30 | total_commit=50 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 30 (within threshold)
+[sobv2]   [AUCTION] Trash BB bid: 1
+[sobv2]   [FLOP] Opp won auction (no reveal)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Th', '8h', '7h'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.143 | Pot: 101 | to_call: 0
+[sobv2]   [FLOP] -> CHECK (equity 0.143)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['Th', '8h', '7h', '5s'] | Opp revealed: None
+[sobv2]   [TURN] Exact Equity: 0.075 | Pot: 101 | to_call: 0
+[sobv2]   [TURN] -> CHECK (equity 0.075)
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['Th', '8h', '7h', '5s', '8s'] | Opp revealed: None
+[sobv2]   [RIVER] Exact Equity: 0.079 | Pot: 101 | to_call: 0
+[sobv2]   [RIVER] -> CHECK (equity 0.079)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -50 | Board: ['Th', '8h', '7h', '5s', '8s']
+[sobv2] We raised: False | Opp folded: False
+[sobv2] Opp revealed: ['Jc', 'Qc']
+[sobv2] 
+============================================================
+[sobv2] HAND #4 | Bankroll: -20
+[sobv2] My Hand: ['Ah', '5s'] | Preflop Equity: 0.577
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/1 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=40 | total_commit=60 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 40 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=6: bid 7 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['Qh']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['4h', '2c', 'Kh'] | Opp revealed: ['Qh']
+[sobv2]   [FLOP] Exact Equity: 0.707 | Pot: 126 | to_call: 0
+[sobv2]   [FLOP] -> RAISE 31 (value bet, equity 0.707)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +60 | Board: ['4h', '2c', 'Kh']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['Qh']
+[sobv2] 
+============================================================
+[sobv2] HAND #5 | Bankroll: 40
+[sobv2] My Hand: ['2s', 'Ts'] | Preflop Equity: 0.448
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/2 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=0 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CHECK (free)
+[sobv2]   [AUCTION] Trash BB bid: 1
+[sobv2]   [FLOP] We won auction - opp revealed: ['5d']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['6s', '3s', '2h'] | Opp revealed: ['5d']
+[sobv2]   [FLOP] Exact Equity: 0.783 | Pot: 42 | to_call: 0
+[sobv2]   [FLOP] -> RAISE 20 (value bet, equity 0.783)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +21 | Board: ['6s', '3s', '2h']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['5d']
+[sobv2] 
+============================================================
+[sobv2] HAND #6 | Bankroll: 61
+[sobv2] My Hand: ['8s', '7c'] | Preflop Equity: 0.451
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/3 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=6: bid 7 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['6d']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Qs', '9c', '2s'] | Opp revealed: ['6d']
+[sobv2]   [FLOP] Exact Equity: 0.196 | Pot: 69 | to_call: 23
+[sobv2]   [FLOP] -> FOLD (poor equity 0.196 < 0.30)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -26 | Board: ['Qs', '9c', '2s']
+[sobv2] We raised: False | Opp folded: False
+[sobv2] Opp revealed: ['6d']
+[sobv2] 
+============================================================
+[sobv2] HAND #7 | Bankroll: 35
+[sobv2] My Hand: ['6h', '4d'] | Preflop Equity: 0.380
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/3 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=30 | total_commit=50 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 30 (within threshold)
+[sobv2]   [AUCTION] Trash BB bid: 2
+[sobv2]   [FLOP] Opp won auction (no reveal)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['6c', '5c', '6d'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.977 | Pot: 102 | to_call: 0
+[sobv2]   [FLOP] MONSTER HAND! Equity 0.977 >= threshold 0.800
+[sobv2]   [FLOP] -> ALL-IN RAISE 4948
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +52 | Board: ['6c', '5c', '6d']
+[sobv2] We raised: True | Opp folded: True
+[sobv2] 
+============================================================
+[sobv2] HAND #8 | Bankroll: 87
+[sobv2] My Hand: ['Jh', '7h'] | Preflop Equity: 0.523
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 1/4 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=11: bid 12 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['9h']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Jc', '6s', '7s'] | Opp revealed: ['9h']
+[sobv2]   [FLOP] Exact Equity: 0.978 | Pot: 51 | to_call: 0
+[sobv2]   [FLOP] MONSTER HAND! Equity 0.978 >= threshold 0.800
+[sobv2]   [FLOP] -> ALL-IN RAISE 4969
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +20 | Board: ['Jc', '6s', '7s']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['9h']
+[sobv2] 
+============================================================
+[sobv2] HAND #9 | Bankroll: 107
+[sobv2] My Hand: ['6s', '6h'] | Preflop Equity: 0.633
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.840
+[sobv2] Opp Fold Stats: 1/5 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=30 | total_commit=50 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 30 (within threshold)
+[sobv2]   [AUCTION] Trash BB bid: 0
+[sobv2]   [FLOP] Opp won auction (no reveal)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['2h', '7s', 'Jd'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.725 | Pot: 100 | to_call: 0
+[sobv2]   [FLOP] -> RAISE 25 (value bet, equity 0.725)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['2h', '7s', 'Jd'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.725 | Pot: 239 | to_call: 89
+[sobv2]   [FLOP] -> FOLD (total 114 > threshold 100)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -75 | Board: ['2h', '7s', 'Jd']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] 
+============================================================
+[sobv2] HAND #10 | Bankroll: 32
+[sobv2] My Hand: ['8h', 'Ac'] | Preflop Equity: 0.599
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.850
+[sobv2] Opp Fold Stats: 1/6 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=8: bid 9 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['4s']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['2h', 'Ah', 'Qc'] | Opp revealed: ['4s']
+[sobv2]   [FLOP] Exact Equity: 0.978 | Pot: 48 | to_call: 0
+[sobv2]   [FLOP] MONSTER HAND! Equity 0.978 >= threshold 0.850
+[sobv2]   [FLOP] -> ALL-IN RAISE 4972
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +20 | Board: ['2h', 'Ah', 'Qc']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['4s']
+[sobv2] 
+============================================================
+[sobv2] HAND #1 | Bankroll: 0
+[sobv2] My Hand: ['7c', '2d'] | Preflop Equity: 0.346
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 0/0 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=30 | total_commit=50 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 30 (within threshold)
+[sobv2]   [AUCTION] Trash BB bid: 2
+[sobv2]   [FLOP] Opp won auction (no reveal)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['7s', 'Kd', 'Qd'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.694 | Pot: 102 | to_call: 0
+[sobv2]   [FLOP] -> RAISE 25 (value bet, equity 0.694)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +52 | Board: ['7s', 'Kd', 'Qd']
+[sobv2] We raised: True | Opp folded: True
+[sobv2] 
+============================================================
+[sobv2] HAND #2 | Bankroll: 52
+[sobv2] My Hand: ['5h', '4d'] | Preflop Equity: 0.382
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 1/1 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=40 | total_commit=60 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 40 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=45: bid 46 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['Ac']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Ah', 'Js', '5c'] | Opp revealed: ['Ac']
+[sobv2]   [FLOP] Exact Equity: 0.000 | Pot: 165 | to_call: 0
+[sobv2]   [FLOP] -> CHECK (equity 0.000)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['Ah', 'Js', '5c', 'Ks'] | Opp revealed: ['Ac']
+[sobv2]   [TURN] Exact Equity: 0.000 | Pot: 294 | to_call: 129
+[sobv2]   [TURN] -> FOLD (total 129 > threshold 120)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -105 | Board: ['Ah', 'Js', '5c', 'Ks']
+[sobv2] We raised: False | Opp folded: False
+[sobv2] Opp revealed: ['Ac']
+[sobv2] 
+============================================================
+[sobv2] HAND #3 | Bankroll: -53
+[sobv2] My Hand: ['Tc', '9s'] | Preflop Equity: 0.515
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 1/1 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=30 | total_commit=50 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 30 (within threshold)
+[sobv2]   [AUCTION] Trash BB bid: 1
+[sobv2]   [FLOP] Opp won auction (no reveal)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['9c', 'Jd', '2s'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.816 | Pot: 101 | to_call: 0
+[sobv2]   [FLOP] MONSTER HAND! Equity 0.816 >= threshold 0.800
+[sobv2]   [FLOP] -> ALL-IN RAISE 4949
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['9c', 'Jd', '2s', 'Jc'] | Opp revealed: None
+[sobv2]   [TURN] Exact Equity: 0.778 | Pot: 9999 | to_call: 0
+[sobv2]   [TURN] -> CHECK (equity 0.778)
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['9c', 'Jd', '2s', 'Jc', '6d'] | Opp revealed: None
+[sobv2]   [RIVER] Exact Equity: 0.857 | Pot: 9999 | to_call: 0
+[sobv2]   [RIVER] MONSTER HAND! Equity 0.857 >= threshold 0.800
+[sobv2]   [RIVER] -> CHECK
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -4999 | Board: ['9c', 'Jd', '2s', 'Jc', '6d']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['Ac', 'Ah']
+[sobv2] 
+============================================================
+[sobv2] HAND #4 | Bankroll: -5052
+[sobv2] My Hand: ['2s', 'Qh'] | Preflop Equity: 0.473
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 1/2 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=2: bid 3 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['Th']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['5s', 'Ad', '3h'] | Opp revealed: ['Th']
+[sobv2]   [FLOP] Exact Equity: 0.620 | Pot: 42 | to_call: 0
+[sobv2]   [FLOP] -> RAISE 20 (value bet, equity 0.620)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['5s', 'Ad', '3h', '9s'] | Opp revealed: ['Th']
+[sobv2]   [TURN] Exact Equity: 0.511 | Pot: 82 | to_call: 0
+[sobv2]   [TURN] -> RAISE 20 (value bet, equity 0.511)
+[sobv2]   [RIVER] Using TRASH strategy
+[sobv2]   [RIVER] Board: ['5s', 'Ad', '3h', '9s', '7h'] | Opp revealed: ['Th']
+[sobv2]   [RIVER] Exact Equity: 0.432 | Pot: 122 | to_call: 0
+[sobv2]   [RIVER] -> CHECK (equity 0.432)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -62 | Board: ['5s', 'Ad', '3h', '9s', '7h']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['Th', '3d']
+[sobv2] 
+============================================================
+[sobv2] HAND #5 | Bankroll: -5114
+[sobv2] My Hand: ['3s', '2h'] | Preflop Equity: 0.323
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 1/3 raises
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +10 | Board: []
+[sobv2] We raised: False | Opp folded: True
+[sobv2] 
+============================================================
+[sobv2] HAND #6 | Bankroll: -5104
+[sobv2] My Hand: ['As', '7h'] | Preflop Equity: 0.588
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 1/3 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=40 | total_commit=60 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 40 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=29: bid 30 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['Qh']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Jd', 'Td', '2c'] | Opp revealed: ['Qh']
+[sobv2]   [FLOP] Exact Equity: 0.674 | Pot: 149 | to_call: 0
+[sobv2]   [FLOP] -> RAISE 37 (value bet, equity 0.674)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +60 | Board: ['Jd', 'Td', '2c']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['Qh']
+[sobv2] 
+============================================================
+[sobv2] HAND #7 | Bankroll: -5044
+[sobv2] My Hand: ['9c', 'Qd'] | Preflop Equity: 0.554
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.800
+[sobv2] Opp Fold Stats: 1/4 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=0 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CHECK (free)
+[sobv2]   [AUCTION] Trash BB bid: 2
+[sobv2]   [FLOP] We won auction - opp revealed: ['Jh']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Ks', '3c', '7h'] | Opp revealed: ['Jh']
+[sobv2]   [FLOP] Exact Equity: 0.620 | Pot: 44 | to_call: 0
+[sobv2]   [FLOP] -> RAISE 20 (value bet, equity 0.620)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['Ks', '3c', '7h', '2h'] | Opp revealed: ['Jh']
+[sobv2]   [TURN] Exact Equity: 0.511 | Pot: 84 | to_call: 0
+[sobv2]   [TURN] -> RAISE 21 (value bet, equity 0.511)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +42 | Board: ['Ks', '3c', '7h', '2h']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['Jh']
+[sobv2] 
+============================================================
+[sobv2] HAND #8 | Bankroll: -5002
+[sobv2] My Hand: ['Qh', '2c'] | Preflop Equity: 0.473
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.840
+[sobv2] Opp Fold Stats: 1/5 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=1: bid 2 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['3d']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['Ad', '2d', 'Qd'] | Opp revealed: ['3d']
+[sobv2]   [FLOP] Exact Equity: 0.913 | Pot: 41 | to_call: 0
+[sobv2]   [FLOP] MONSTER HAND! Equity 0.913 >= threshold 0.840
+[sobv2]   [FLOP] -> ALL-IN RAISE 4979
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +20 | Board: ['Ad', '2d', 'Qd']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['3d']
+[sobv2] 
+============================================================
+[sobv2] HAND #9 | Bankroll: -4982
+[sobv2] My Hand: ['9h', '2s'] | Preflop Equity: 0.391
+[sobv2] Premium: False | Position: BB
+[sobv2] Dynamic All-in Threshold: 0.850
+[sobv2] Opp Fold Stats: 1/6 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=30 | total_commit=50 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 30 (within threshold)
+[sobv2]   [AUCTION] Trash BB bid: 0
+[sobv2]   [FLOP] Opp won auction (no reveal)
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['3s', '5c', '5s'] | Opp revealed: None
+[sobv2]   [FLOP] Exact Equity: 0.433 | Pot: 100 | to_call: 0
+[sobv2]   [FLOP] -> CHECK (equity 0.433)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['3s', '5c', '5s', 'Ts'] | Opp revealed: None
+[sobv2]   [TURN] Exact Equity: 0.092 | Pot: 100 | to_call: 0
+[sobv2]   [TURN] -> CHECK (equity 0.092)
+[sobv2]   [TURN] Using TRASH strategy
+[sobv2]   [TURN] Board: ['3s', '5c', '5s', 'Ts'] | Opp revealed: None
+[sobv2]   [TURN] Exact Equity: 0.092 | Pot: 150 | to_call: 50
+[sobv2]   [TURN] -> FOLD (poor equity 0.092 < 0.30)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: -50 | Board: ['3s', '5c', '5s', 'Ts']
+[sobv2] We raised: False | Opp folded: False
+[sobv2] 
+============================================================
+[sobv2] HAND #10 | Bankroll: -5032
+[sobv2] My Hand: ['4c', 'Ah'] | Preflop Equity: 0.567
+[sobv2] Premium: False | Position: SB
+[sobv2] Dynamic All-in Threshold: 0.850
+[sobv2] Opp Fold Stats: 1/6 raises
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=10 | total_commit=20 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 10 (within threshold)
+[sobv2]   [PRE-FLOP] Using TRASH strategy
+[sobv2]   [PRE-FLOP] Trash hand | to_call=40 | total_commit=60 | threshold=80
+[sobv2]   [PRE-FLOP] -> CALL 40 (within threshold)
+[sobv2]   [AUCTION] Trash SB vs opp_bid=3: bid 4 (win cheaply)
+[sobv2]   [FLOP] We won auction - opp revealed: ['9c']
+[sobv2]   [FLOP] Using TRASH strategy
+[sobv2]   [FLOP] Board: ['7c', '5h', '2s'] | Opp revealed: ['9c']
+[sobv2]   [FLOP] Exact Equity: 0.674 | Pot: 123 | to_call: 0
+[sobv2]   [FLOP] -> RAISE 30 (value bet, equity 0.674)
+[sobv2] --- HAND END ---
+[sobv2] Payoff: +60 | Board: ['7c', '5h', '2s']
+[sobv2] We raised: True | Opp folded: False
+[sobv2] Opp revealed: ['9c']

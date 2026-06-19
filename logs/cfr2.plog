@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/Users/manojsurya/Desktop/POKER BOTS/bot-engine-2026-main/engine.py", line 226, in run
+    proc = subprocess.Popen(
+        [PYTHON_CMD, self.file_path, str(port)],
+        stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+        cwd=os.path.dirname(self.file_path))
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 1972, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: './bots'
